@@ -6,9 +6,10 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint pages/"
+		"lint": "eslint pages/ --fix"
 	},
 	"dependencies": {
+		"axios": "^0.21.1",
 		"next": "10.0.7",
 		"react": "17.0.1",
 		"react-dom": "17.0.1",
