@@ -12,8 +12,7 @@ interface Props {
 }
 
 // TODO change to internal api
-const API =
-	"https://06jrgiqx16.execute-api.us-east-2.amazonaws.com/staging/items";
+const API = "http://localhost:3000/api/bazaar";
 
 const Filter: React.FC<Props> = (props: Props) => {
 	const load = async (): Promise<Product[]> => {
