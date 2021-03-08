@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "tailwindcss/tailwind.css";
 
 import Table from "./comps/Table";
 import Filter from "./comps/Filter";
