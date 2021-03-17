@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
-const { HYPIXEL_API_KEY } = require("./secret");
-const axios = require("axios");
+const HYPIXEL_API_KEY = process.env.API_KEY;
+import axios from "axios";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
 	const data = (
