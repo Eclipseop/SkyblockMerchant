@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "tailwindcss/tailwind.css";
 
-import Table from "./comps/Table";
-import Filter from "./comps/Filter";
-import Product from "./types/Product";
+import Table from "../app/comps/Table";
+import Filter from "../app/comps/Filter";
 
 const App: React.FC = () => {
 	const [maxCoins, setMaxCoins] = useState(10000);

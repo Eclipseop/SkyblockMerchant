@@ -1,5 +1,4 @@
 import React from "react";
-import Product from "../types/Product";
 
 const parseName = (id: string): string => {
 	id = id.replaceAll("_", " ");

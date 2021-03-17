@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Product from "../types/Product";
 
 import Item from "./Item";
 import Pagination from "./Pagination";

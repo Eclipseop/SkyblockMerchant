@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
 import axios from "axios";
-import Product from "../types/Product";
 
 interface Props {
 	setMaxCoins(coins: number): void;

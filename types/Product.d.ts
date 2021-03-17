@@ -7,5 +7,3 @@ interface Product {
 	volume: number;
 	[key: string]: string | number;
 }
-
-export = Product;
