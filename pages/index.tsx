@@ -10,8 +10,8 @@ const App: React.FC = () => {
 	const [products, setProducts] = useState<Product[]>([]);
 
 	return (
-		<div className="w-full bg-green-800 h-full min-h-screen">
-			<div className="flex flex-row py-3 space-x-3 max-w-70 mx-auto">
+		<div className="w-full bg-gray-700 h-full min-h-screen">
+			<div className="flex flex-row py-3 space-x-3 max-w-80 mx-auto">
 				<div className="min-w-30">
 					<Filter
 						maxCoins={maxCoins}
